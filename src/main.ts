@@ -64,7 +64,7 @@ function select<R>(
           .backspace(1)
           .write(press.key)
           // .flip()
-          .write("_")
+          // .write("_")
           // .flip()
           .flush();
       } else if (down) {
