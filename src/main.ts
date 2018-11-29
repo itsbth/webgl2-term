@@ -2,8 +2,8 @@ import runes from "runes";
 import GlTerminal from "./GlTerminal";
 import GlyphMap from "./GlyphMap";
 import TermWriter from "./TermWriter";
-import typeSound from "../type.ogg";
-import moveSound from "../move.ogg";
+import typeSound from "../res/type.ogg";
+import moveSound from "../res/move.ogg";
 
 const delay = (ms: number) => new Promise(res => setTimeout(res, ms));
 const nextFrame = () => new Promise(res => requestAnimationFrame(res));

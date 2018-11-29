@@ -11,7 +11,7 @@ body {
 }
 @font-face {
   font-family: "Glass TTY";
-  src: url("Glass_TTY_VT220.woff2") format("woff2");
+  src: url("res/Glass_TTY_VT220.woff2") format("woff2");
 }
 #wrap {
   display: flex;
