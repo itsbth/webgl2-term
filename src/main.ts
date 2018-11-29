@@ -61,7 +61,7 @@ function select<R>(
         }
         new Audio(typeSound).play();
         writer
-          .backspace(1)
+          // .backspace(1)
           .write(press.key)
           // .flip()
           // .write("_")
